@@ -37,7 +37,7 @@ function App() {
     }
 
     try {
-      let API_ID = "850ebebe208e9a5aad3a8473538ccd68";
+      let API_ID ="850ebebe208e9a5aad3a8473538ccd68";
       const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${API_ID}`;
       const res = await fetch(url);
       const data = await res.json();
